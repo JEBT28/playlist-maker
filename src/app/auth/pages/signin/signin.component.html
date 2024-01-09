@@ -1,0 +1,17 @@
+<main class="min-h-screen flex flex-col justify-center items-center gap-4">
+  <form action="" class="flex flex-col justify-center items-center">
+    <mat-form-field>
+      <mat-label>Email or Username</mat-label>
+      <input matInput placeholder="Ex. john.doe@example.com " />
+      <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matInput type="password" />
+      <mat-icon matSuffix>lock</mat-icon>
+    </mat-form-field>
+    <button mat-flat-button color="primary">Sign In</button>
+  </form>
+  <span>If you haven't an account, <a [routerLink]="['/auth','signup']" routerLinkActive="router-link-active">Sign
+      Up</a></span>
+</main>
