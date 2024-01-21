@@ -1,6 +1,6 @@
 import { Injectable, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from '../../../environments/environment.development'
+import { environment } from '../../../environments/environment'
 import { firstValueFrom } from 'rxjs';
 import { NewUser, UserSelect, UserUpdate } from '../../../types/models/User.interface';
 import { IResponse } from '../../../types/response.interface';
